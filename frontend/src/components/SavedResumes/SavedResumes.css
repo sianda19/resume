@@ -1,0 +1,50 @@
+.saved-resumes-common-container {
+  align-self: flex-start;
+}
+
+.saved-resumes-heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.saved-resumes-top-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.saved-resumes-bottom {
+  text-align: center;
+}
+
+#style-btn.no-left-margin {
+  margin-left: 0;
+}
+
+.saved-resumes-common-container .main-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.saved-resumes-common-container .main-content .resume-element {
+  margin: 0 5px;
+  margin-bottom: 1rem;
+  border: 2px solid #2026d6;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
+
+.saved-resumes-common-container
+  .main-content
+  .resume-element.hover-effect:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 597px) {
+  #style-btn.no-left-margin-mobile {
+    margin-left: 0;
+  }
+}
